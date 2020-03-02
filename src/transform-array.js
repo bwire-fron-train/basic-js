@@ -29,5 +29,3 @@ module.exports = function transform(arr) {
         throw new Error;
     }  
 };
-
-//console.log(transform( [ '--double-prev', 22, '--discard-next', 'DEF', 22, '--double-next' ] ));
